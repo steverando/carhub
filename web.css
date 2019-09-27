@@ -1,0 +1,218 @@
+/*startof div.html*/
+html, body{
+    padding:0;
+    margin:0;
+}
+#body{
+    background-color:navy;
+    font-size:14px
+}
+#topbar{
+    height:70px;
+    background-color: navy;
+}
+#topbar #left{
+    width:30%;
+    float:left;
+    height:100%;
+    font-size:50px;
+    color: aquamarine;
+    padding-left: 60px;
+   
+}
+#topbar #right{
+    width:30%;
+    float:right;
+    height:100%;
+    font-size:60px;
+   
+}
+#topbar #right a{
+    display:inline;
+    font-size:30px;
+    text-decoration:none;
+    background-color:aquamarine;
+
+}
+
+#topbar #right a:hover{
+    padding: 10px;
+    color:red;
+}
+.signup-btn{
+    top:90px;
+    right:80px;
+    position: absolute;
+    text-decoration: none;
+    color: #ffffff;
+    border:2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#424242, #424242),radial-gradient(circle at top left,antiquewhite,aqua);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+} 
+.signup-btn span{
+    display: block;
+    padding:8px 22px;
+}  
+
+#middlebar{
+    height: 950px;
+    background-image: url("gari.jpeg");
+    background-size: cover;
+    font-size: 3vw;
+    color:black; 
+    font-style: oblique; 
+}
+#text{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.more{
+    top:465px;
+    left:80px;
+    position: absolute;
+    text-decoration: none;
+    color: #ffffff;
+    border:2px solid transparent;
+    border-radius: 30px;
+    background-image: linear-gradient(#fff, #424242),radial-gradient(circle at top left,purple, purple);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+}
+
+
+#middlebar a{
+    text-decoration: none;
+    padding: 60px;
+}
+#bottombar{
+        height:800px;
+        background-color: navy;
+}
+#bottombar #leftside{
+    width:40%;
+    float:left;
+    height:100%;
+    font-size:40px;
+    color: antiquewhite;
+}
+#bottombar #leftside ul{
+    text-align: center;
+    list-style-type:none;
+}
+#bottombar #rightside{
+    width:40%;
+    float:right;
+    height:100%;
+    font-size:30px;
+    color: antiquewhite;
+}
+#bottombar #rightside i{
+    color: black;
+}
+#footer{
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color: navy;
+    color:wheat;
+    text-align:center;
+}
+/*startof div.html*/
+html, cbody{
+    padding:0;
+    margin:0;
+}
+#cbody{
+    background-color:aqua;
+    font-size:14px
+}
+#contacts{
+    height: 950px;
+    padding-left:40px;
+    background-image: url("range.jpg");
+    background-size: cover;
+    font-size: 3vw;
+    color:greenyell0w; 
+    font-style:oblique; 
+}
+#table{
+    border-collapse: collapse;
+    width:100%;
+    height:900px;
+}
+#table td, #table th{
+    border:1px solid #ddd;
+    padding:8px;
+}
+#table tr:nth-child(even){background-color:#f2f2f2;}
+#table tr:hover{background-color:#ddd;}
+#table th{
+    padding-top: 12px;
+    padding-bottom:12px;
+    text-align:left;
+    background-color:navy;
+    color:#ddd;
+    font-size:40px;
+
+}
+#table td{
+    font-size:25px;
+    font-style:oblique;
+}
+#form{
+    width:100%;
+}
+.fullscreen-bg__video {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+    .icons{
+        right:72px;
+        bottom:35px;
+        position: absolute;
+        display: inline;
+    }
+    .icons ul li{
+       list-style: none;
+       margin-top: 30px;
+       text-align: center; 
+    }
+    .icons ul li a{
+        color:aqua;
+        border-radius:90%;
+        border:1px solid aquamarine;
+        padding:5px;
+        display:block; 
+    }
+    #formb{
+        height:500px;
+    }
+    #form{
+        text-align:center;
+    
+    
+    }
+    #form input{
+        font-size:35px;
+        margin: 5px;
+        padding:5px;
+        width:500px;
+        border-radius: 20px;
+        background-image: linear-gradient(#ffffff,#ffffff),radial-gradient(circle at top left, grey,rgb(152, 94, 185));
+        background-origin: border-box;
+        background-clip: content-box,border-box;
+}
